@@ -1,0 +1,8 @@
+/Users/nad/Projects/CommandPattern/CommandPattern.Invokers/bin/Debug/CommandPattern.Invokers.dll
+/Users/nad/Projects/CommandPattern/CommandPattern.Invokers/bin/Debug/CommandPattern.Invokers.pdb
+/Users/nad/Projects/CommandPattern/CommandPattern.Invokers/bin/Debug/CommandPattern.Interfaces.dll
+/Users/nad/Projects/CommandPattern/CommandPattern.Invokers/bin/Debug/CommandPattern.Interfaces.pdb
+/Users/nad/Projects/CommandPattern/CommandPattern.Invokers/obj/Debug/CommandPattern.Invokers.csprojResolveAssemblyReference.cache
+/Users/nad/Projects/CommandPattern/CommandPattern.Invokers/obj/Debug/CommandPattern.Invokers.csproj.CoreCompileInputs.cache
+/Users/nad/Projects/CommandPattern/CommandPattern.Invokers/obj/Debug/CommandPattern.Invokers.dll
+/Users/nad/Projects/CommandPattern/CommandPattern.Invokers/obj/Debug/CommandPattern.Invokers.pdb

@@ -1,0 +1,12 @@
+/Users/nad/Projects/StrategyPattern/StrategyPattern/bin/Debug/StrategyPattern.exe
+/Users/nad/Projects/StrategyPattern/StrategyPattern/bin/Debug/StrategyPattern.pdb
+/Users/nad/Projects/StrategyPattern/StrategyPattern/bin/Debug/StrategyPattern.Client.dll
+/Users/nad/Projects/StrategyPattern/StrategyPattern/bin/Debug/StrategyPattern.Common.dll
+/Users/nad/Projects/StrategyPattern/StrategyPattern/bin/Debug/StrategyPattern.Interfaces.dll
+/Users/nad/Projects/StrategyPattern/StrategyPattern/bin/Debug/StrategyPattern.Client.pdb
+/Users/nad/Projects/StrategyPattern/StrategyPattern/bin/Debug/StrategyPattern.Common.pdb
+/Users/nad/Projects/StrategyPattern/StrategyPattern/bin/Debug/StrategyPattern.Interfaces.pdb
+/Users/nad/Projects/StrategyPattern/StrategyPattern/obj/x86/Debug/StrategyPattern.csprojResolveAssemblyReference.cache
+/Users/nad/Projects/StrategyPattern/StrategyPattern/obj/x86/Debug/StrategyPattern.csproj.CoreCompileInputs.cache
+/Users/nad/Projects/StrategyPattern/StrategyPattern/obj/x86/Debug/StrategyPattern.exe
+/Users/nad/Projects/StrategyPattern/StrategyPattern/obj/x86/Debug/StrategyPattern.pdb

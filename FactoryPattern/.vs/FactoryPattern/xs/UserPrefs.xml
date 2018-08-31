@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{DE7413CF-49DF-412C-9185-1D0550328DB5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FactoryPattern/Program.cs">
+    <Files>
+      <File FileName="FactoryPattern/Program.cs" Line="11" Column="13" />
+      <File FileName="FactoryPattern.AnimalFactory/AnimalFactory.cs" Line="17" Column="33" />
+      <File FileName="FactoryPattern.Animals/Goat.cs" Line="8" Column="22" />
+      <File FileName="FactoryPattern.Animals/Pig.cs" Line="14" Column="41" />
+      <File FileName="FactoryPattern.Animals/Cow.cs" Line="14" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FactoryPattern PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

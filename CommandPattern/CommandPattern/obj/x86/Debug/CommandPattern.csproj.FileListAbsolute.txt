@@ -1,0 +1,14 @@
+/Users/nad/Projects/CommandPattern/CommandPattern/bin/Debug/CommandPattern.exe
+/Users/nad/Projects/CommandPattern/CommandPattern/bin/Debug/CommandPattern.pdb
+/Users/nad/Projects/CommandPattern/CommandPattern/bin/Debug/CommandPattern.Commands.dll
+/Users/nad/Projects/CommandPattern/CommandPattern/bin/Debug/CommandPattern.Interfaces.dll
+/Users/nad/Projects/CommandPattern/CommandPattern/bin/Debug/CommandPattern.Invokers.dll
+/Users/nad/Projects/CommandPattern/CommandPattern/bin/Debug/CommandPattern.Receivers.dll
+/Users/nad/Projects/CommandPattern/CommandPattern/bin/Debug/CommandPattern.Receivers.pdb
+/Users/nad/Projects/CommandPattern/CommandPattern/bin/Debug/CommandPattern.Commands.pdb
+/Users/nad/Projects/CommandPattern/CommandPattern/bin/Debug/CommandPattern.Invokers.pdb
+/Users/nad/Projects/CommandPattern/CommandPattern/bin/Debug/CommandPattern.Interfaces.pdb
+/Users/nad/Projects/CommandPattern/CommandPattern/obj/x86/Debug/CommandPattern.csprojResolveAssemblyReference.cache
+/Users/nad/Projects/CommandPattern/CommandPattern/obj/x86/Debug/CommandPattern.csproj.CoreCompileInputs.cache
+/Users/nad/Projects/CommandPattern/CommandPattern/obj/x86/Debug/CommandPattern.exe
+/Users/nad/Projects/CommandPattern/CommandPattern/obj/x86/Debug/CommandPattern.pdb

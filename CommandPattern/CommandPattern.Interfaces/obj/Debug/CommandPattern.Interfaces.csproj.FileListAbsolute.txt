@@ -1,0 +1,6 @@
+/Users/nad/Projects/CommandPattern/CommandPattern.Interfaces/bin/Debug/CommandPattern.Interfaces.dll
+/Users/nad/Projects/CommandPattern/CommandPattern.Interfaces/bin/Debug/CommandPattern.Interfaces.pdb
+/Users/nad/Projects/CommandPattern/CommandPattern.Interfaces/obj/Debug/CommandPattern.Interfaces.csprojResolveAssemblyReference.cache
+/Users/nad/Projects/CommandPattern/CommandPattern.Interfaces/obj/Debug/CommandPattern.Interfaces.csproj.CoreCompileInputs.cache
+/Users/nad/Projects/CommandPattern/CommandPattern.Interfaces/obj/Debug/CommandPattern.Interfaces.dll
+/Users/nad/Projects/CommandPattern/CommandPattern.Interfaces/obj/Debug/CommandPattern.Interfaces.pdb

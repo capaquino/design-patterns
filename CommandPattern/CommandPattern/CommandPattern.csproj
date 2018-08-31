@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{23EE66A4-E591-4811-B719-42C1F40E1B14}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CommandPattern</RootNamespace>
+    <AssemblyName>CommandPattern</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommandPattern.Receivers\CommandPattern.Receivers.csproj">
+      <Project>{678E2A89-43B9-45C5-8C18-4D96A6B9EF7A}</Project>
+      <Name>CommandPattern.Receivers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommandPattern.Commands\CommandPattern.Commands.csproj">
+      <Project>{91B5362B-BD24-4D95-8B0D-097FC5E0019B}</Project>
+      <Name>CommandPattern.Commands</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommandPattern.Invokers\CommandPattern.Invokers.csproj">
+      <Project>{7BBC9BBF-C0A7-42E2-8AA0-18BA7ED50F04}</Project>
+      <Name>CommandPattern.Invokers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommandPattern.Interfaces\CommandPattern.Interfaces.csproj">
+      <Project>{F134BDE9-E00E-4D68-8F72-3DEEDDDE8BF0}</Project>
+      <Name>CommandPattern.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
