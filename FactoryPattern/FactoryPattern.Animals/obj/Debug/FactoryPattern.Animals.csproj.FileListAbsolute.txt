@@ -1,8 +1,0 @@
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Animals/bin/Debug/FactoryPattern.Animals.dll
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Animals/bin/Debug/FactoryPattern.Animals.pdb
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Animals/bin/Debug/FactoryPattern.Interfaces.dll
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Animals/bin/Debug/FactoryPattern.Interfaces.pdb
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Animals/obj/Debug/FactoryPattern.Animals.csprojResolveAssemblyReference.cache
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Animals/obj/Debug/FactoryPattern.Animals.csproj.CoreCompileInputs.cache
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Animals/obj/Debug/FactoryPattern.Animals.dll
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Animals/obj/Debug/FactoryPattern.Animals.pdb

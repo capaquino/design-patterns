@@ -1,5 +1,0 @@
-/Users/nad/Projects/CommandPattern/CommandPattern.Receivers/bin/Debug/CommandPattern.Receivers.dll
-/Users/nad/Projects/CommandPattern/CommandPattern.Receivers/bin/Debug/CommandPattern.Receivers.pdb
-/Users/nad/Projects/CommandPattern/CommandPattern.Receivers/obj/Debug/CommandPattern.Receivers.csproj.CoreCompileInputs.cache
-/Users/nad/Projects/CommandPattern/CommandPattern.Receivers/obj/Debug/CommandPattern.Receivers.dll
-/Users/nad/Projects/CommandPattern/CommandPattern.Receivers/obj/Debug/CommandPattern.Receivers.pdb

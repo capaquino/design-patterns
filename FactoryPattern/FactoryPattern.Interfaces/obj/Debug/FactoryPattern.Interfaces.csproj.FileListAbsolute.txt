@@ -1,5 +1,0 @@
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Interfaces/bin/Debug/FactoryPattern.Interfaces.dll
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Interfaces/bin/Debug/FactoryPattern.Interfaces.pdb
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Interfaces/obj/Debug/FactoryPattern.Interfaces.csproj.CoreCompileInputs.cache
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Interfaces/obj/Debug/FactoryPattern.Interfaces.dll
-/Users/nad/Projects/FactoryPattern/FactoryPattern.Interfaces/obj/Debug/FactoryPattern.Interfaces.pdb

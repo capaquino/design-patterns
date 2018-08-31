@@ -1,6 +1,0 @@
-/Users/nad/Projects/ObserverPattern/ObserverPattern/obj/Debug/ObserverPattern.csprojResolveAssemblyReference.cache
-/Users/nad/Projects/ObserverPattern/ObserverPattern/obj/Debug/ObserverPattern.csproj.CoreCompileInputs.cache
-/Users/nad/Projects/ObserverPattern/ObserverPattern/bin/Debug/ObserverPattern.exe
-/Users/nad/Projects/ObserverPattern/ObserverPattern/bin/Debug/ObserverPattern.pdb
-/Users/nad/Projects/ObserverPattern/ObserverPattern/obj/Debug/ObserverPattern.exe
-/Users/nad/Projects/ObserverPattern/ObserverPattern/obj/Debug/ObserverPattern.pdb
