@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9223FF3-D874-4EE7-B9F1-6C1BEB62AC57}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AdapterPattern.Adapter</RootNamespace>
+    <AssemblyName>AdapterPattern.Adapter</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdapterClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MethodSigAdapterClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdapterPattern.Interfaces\AdapterPattern.Interfaces.csproj">
+      <Project>{0F6B6054-D3D2-4948-AAC9-02454C7B9ACA}</Project>
+      <Name>AdapterPattern.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AdapterPattern.Adaptee\AdapterPattern.Adaptee.csproj">
+      <Project>{798D162B-FD68-471F-8266-BEB2C8E6BA0A}</Project>
+      <Name>AdapterPattern.Adaptee</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
