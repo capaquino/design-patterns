@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{9CAD0859-E961-4D9F-AD73-E9E24E312D40}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ProxyPattern</RootNamespace>
+    <AssemblyName>ProxyPattern</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProxyPattern.Interfaces\ProxyPattern.Interfaces.csproj">
+      <Project>{FFC4BEC8-E112-41AA-A8AC-EF8DFF597940}</Project>
+      <Name>ProxyPattern.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProxyPattern.Client\ProxyPattern.Clients.csproj">
+      <Project>{9637274A-0084-4E85-A65F-D1B8943ACFA6}</Project>
+      <Name>ProxyPattern.Clients</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProxyPattern.Proxies\ProxyPattern.Proxies.csproj">
+      <Project>{0AC36BAC-84DF-4380-9A70-56A2FD61055A}</Project>
+      <Name>ProxyPattern.Proxies</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

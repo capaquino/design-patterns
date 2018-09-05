@@ -1,0 +1,41 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{9CAD0859-E961-4D9F-AD73-E9E24E312D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern.Interfaces", "ProxyPattern.Interfaces\ProxyPattern.Interfaces.csproj", "{FFC4BEC8-E112-41AA-A8AC-EF8DFF597940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern.Clients", "ProxyPattern.Client\ProxyPattern.Clients.csproj", "{9637274A-0084-4E85-A65F-D1B8943ACFA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern.Proxies", "ProxyPattern.Proxies\ProxyPattern.Proxies.csproj", "{0AC36BAC-84DF-4380-9A70-56A2FD61055A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern.Targets", "ProxyPattern.Targets\ProxyPattern.Targets.csproj", "{129A8E9A-C7A4-471E-83DF-BDA2C3471108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CAD0859-E961-4D9F-AD73-E9E24E312D40}.Debug|x86.ActiveCfg = Debug|x86
+		{9CAD0859-E961-4D9F-AD73-E9E24E312D40}.Debug|x86.Build.0 = Debug|x86
+		{9CAD0859-E961-4D9F-AD73-E9E24E312D40}.Release|x86.ActiveCfg = Release|x86
+		{9CAD0859-E961-4D9F-AD73-E9E24E312D40}.Release|x86.Build.0 = Release|x86
+		{FFC4BEC8-E112-41AA-A8AC-EF8DFF597940}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FFC4BEC8-E112-41AA-A8AC-EF8DFF597940}.Debug|x86.Build.0 = Debug|Any CPU
+		{FFC4BEC8-E112-41AA-A8AC-EF8DFF597940}.Release|x86.ActiveCfg = Release|Any CPU
+		{FFC4BEC8-E112-41AA-A8AC-EF8DFF597940}.Release|x86.Build.0 = Release|Any CPU
+		{9637274A-0084-4E85-A65F-D1B8943ACFA6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9637274A-0084-4E85-A65F-D1B8943ACFA6}.Debug|x86.Build.0 = Debug|Any CPU
+		{9637274A-0084-4E85-A65F-D1B8943ACFA6}.Release|x86.ActiveCfg = Release|Any CPU
+		{9637274A-0084-4E85-A65F-D1B8943ACFA6}.Release|x86.Build.0 = Release|Any CPU
+		{0AC36BAC-84DF-4380-9A70-56A2FD61055A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0AC36BAC-84DF-4380-9A70-56A2FD61055A}.Debug|x86.Build.0 = Debug|Any CPU
+		{0AC36BAC-84DF-4380-9A70-56A2FD61055A}.Release|x86.ActiveCfg = Release|Any CPU
+		{0AC36BAC-84DF-4380-9A70-56A2FD61055A}.Release|x86.Build.0 = Release|Any CPU
+		{129A8E9A-C7A4-471E-83DF-BDA2C3471108}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{129A8E9A-C7A4-471E-83DF-BDA2C3471108}.Debug|x86.Build.0 = Debug|Any CPU
+		{129A8E9A-C7A4-471E-83DF-BDA2C3471108}.Release|x86.ActiveCfg = Release|Any CPU
+		{129A8E9A-C7A4-471E-83DF-BDA2C3471108}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
